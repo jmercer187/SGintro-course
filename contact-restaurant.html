@@ -2,11 +2,37 @@
 <html>
     <head>
         <title>Greg's Latkes</title>
+        <link href="restaurantStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+        <style>
+            #Name {
+                font-weight: bold;
+            }
+            #Email {
+                font-weight: bold;
+            }
+            #Phone {
+                font-weight: bold;
+            }
+            #Reason {
+                font-weight: bold;
+            }
+            #AddInfo {
+                font-weight: bold;
+            }
+            #BeenToRestaurantBefore {
+                font-weight: bold;
+            }
+            #WhenToContact {
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <h1>Greg's Latkes</h1>
         <br/>
-        <div>
+        <div id="header">
             <a href="index-restaurant.html" />Home</a> <a href="menu.html" />Menu</a> <a href="contact-restaurant.html" />Contact Us</a>
         </div>
         <br/>
@@ -15,7 +41,7 @@
                     <label id="Name" for="Name">Name: </label><input id="Name" name="Name" type="text"/>
                 </div>
                 <br/>
-                 <div>
+                <div>
                     <label id="Email" for="Email">Email: </label><input id="Email" name="Email" type="text"/>
                 </div>
                 <br/>
@@ -23,7 +49,7 @@
                     <label id="Phone" for="Phone">Phone: </label><input id="Phone" name="Phone" type="text"/>
                 </div>
                 <br/>
-                <div>
+                <div id="Reason">
                     Reason for Inquiry:
                     <select name="ReasonforInquiry">
                         <option value="Catering">Catering</option>
@@ -33,7 +59,7 @@
                     </select>
                 </div>
                 <br/>
-                <div>
+                <div id="AddInfo">
                     Additional Information: <textarea name="AdditionalInfo"></textarea>
                 </div>
                 <br/>
@@ -45,9 +71,11 @@
                     <label id="WhenToContact" for="WhenToContact">Best days to contact you: </label>
                     <input id="Monday" name="WhenToContact" type="checkbox"/> M <input id="Tuesday" name="WhenToContact" type="checkbox"/> T <input id="Wednesday" name="WhenToContact" type="checkbox"/> W <input id="Thursday" name="WhenToContact" type="checkbox"/> Th <input id="Friday" name="WhenToContact" type="checkbox"/> F <br/>
                 </div>
+                <br/>
+                <input name="Submit" type="submit" />
             </form>
         <br/>
-        <div>
+        <div id="footer">
                 <p>
                     Hours: 10am - 11pm / Tuesday through Sunday / closed Monday
                 </p>

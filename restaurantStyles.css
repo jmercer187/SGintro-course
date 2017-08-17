@@ -1,0 +1,17 @@
+/* restaurant style page */
+body {
+    background-color: #FFFFE4
+}
+#header {
+    font-size: 22px;
+    font: arial;
+    border-top: 4px solid tomato;
+    border-bottom: 4px solid tomato;
+}
+#footer {
+    font: arial;
+    border: 8px solid tomato;
+    color: ivory;
+    background-color: #786E6E;
+    text-align: center;   
+}
