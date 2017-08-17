@@ -28,8 +28,14 @@ table {
 th,td {
     height: 28px;
   }
+#bandLink {
+    text-align: center;
+    width: 100%
+}
 a {
     text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
 }
 a:link {
     color: lightseagreen;
