@@ -3,12 +3,15 @@ body {
     background-color:  #fcf4e8
 }
 #titles {
-    font: arial
+    font-family: sans-serif
 }
 #credits {
-    font: arial
+    font-family: sans-serif
 }
 #tracks {
-    font: arial
+    font-family: sans-serif
+}
+#tREalbum {
+    background-image: url("Images/treimg2.png");
 }
 
