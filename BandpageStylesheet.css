@@ -14,4 +14,31 @@ body {
 #tREalbum {
     background-image: url("Images/treimg2.png");
 }
-
+thead {
+    color: ivory;
+    background-color: black;
+}
+tbody {
+    font-style: italic;
+    background-color: ivory;
+}
+table {
+    width: 100%;
+  }
+th,td {
+    height: 28px;
+  }
+a {
+    text-decoration: none;
+}
+a:link {
+    color: lightseagreen;
+}
+a:visited {
+    color: blueviolet
+}
+a:hover {
+    text-decoration: underline;
+    color: lightskyblue;
+    background-color: lightslategray;
+}
