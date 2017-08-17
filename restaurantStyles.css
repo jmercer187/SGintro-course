@@ -4,14 +4,21 @@ body {
 }
 #header {
     font-size: 22px;
-    font: arial;
+    font: sans-serif;
     border-top: 4px solid tomato;
     border-bottom: 4px solid tomato;
 }
 #footer {
-    font: arial;
+    font-family: sans-serif;
     border: 8px solid tomato;
     color: ivory;
     background-color: #786E6E;
     text-align: center;   
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#aboutGregs {
+    background-color: gainsboro;
 }
