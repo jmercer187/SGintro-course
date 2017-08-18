@@ -10,7 +10,8 @@ body {
 }
 #footer {
     font-family: sans-serif;
-    border: 8px solid tomato;
+    border-top: 4px solid tomato;
+    border-bottom: 4px solid tomato;
     color: ivory;
     background-color: #786E6E;
     text-align: center;   
@@ -21,4 +22,16 @@ h1 {
 }
 #aboutGregs {
     background-color: gainsboro;
+}
+a {
+
+}
+a.link {
+
+}
+a.visited {
+
+}
+a.hover {
+    font-weight: bold;
 }
