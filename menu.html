@@ -2,6 +2,11 @@
 <html>
     <head>
         <title>Greg's Latkes</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
         <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css" />
@@ -44,9 +49,14 @@
     <body>
         <h1>Greg's Latkes</h1>
         <br/>
-        <div id="header">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="index-restaurant.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li role="presentation"><a href="menu.html">Menu</a></li>
+            <li role="presentation"><a href="contact-restaurant.html">Contact Us</a></li>
+        </ul>
+<!--        <div id="header">
             <a href="index-restaurant.html" />Home</a> <a href="menu.html" />Menu</a> <a href="contact-restaurant.html" />Contact Us</a>
-        </div>
+        </div>  -->
         <br/>
         <div id="menuTable">
             <table>
@@ -94,7 +104,7 @@
                     <td id="price">$00.00</td>
                 </tr>
             </table>
-            <table><span style="padding:0px 20px 0px 20px;">
+            <table style="padding:10px;">
                 <caption><span style="font-size: 20px; font-weight: bold;">Beverages</span></label></caption>
                 <tr>
                     <td>Root Beer</td>
@@ -112,7 +122,6 @@
                     <td>Iced Tea</td>
                     <td>$1.25</td>
                 </tr>
-           </span>
             </table>
         </div>
         <br/>

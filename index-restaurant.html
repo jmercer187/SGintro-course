@@ -2,6 +2,11 @@
 <html>
     <head>
         <title>Greg's Latkes</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
         <link href="restaurantStyles.css"
         rel="stylesheet"
         type="text/css" />
@@ -30,8 +35,18 @@
     <body>
         <h1>Greg's Latkes</h1>
         <br/>
-        <div id="header">
+        <div class=container>
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="index-restaurant.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li role="presentation"><a href="menu.html">Menu</a></li>
+            <li role="presentation"><a href="contact-restaurant.html">Contact Us</a></li>
+          </ul>
+        </div>
+<!--      <div id="header">
         <a href="index-restaurant.html" />Home</a> <a href="menu.html" />Menu</a> <a href="contact-restaurant.html" />Contact Us</a>
+        </div>  -->
+        <div class=jumbotron style="text-align: center;">
+            <h4>Our new location is open for business! Visit us at the corner of 5th and Merle Road in the Highlands Neighborhood!</h4>
         </div>
         <div id="DiningRoomImage">
         <img src="Images/gregsdiningroom.jpg" 
