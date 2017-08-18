@@ -14,7 +14,7 @@ body {
 #tREalbum {
     background-image: url("Images/treimg2.png");
 }
-thead {
+/* thead {
     color: ivory;
     background-color: black;
 }
@@ -27,7 +27,7 @@ table {
   }
 th,td {
     height: 28px;
-  }
+  }                     */
 #bandLink {
     text-align: center;
     width: 100%

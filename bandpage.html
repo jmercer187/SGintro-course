@@ -2,11 +2,16 @@
 <html>
     <head>
         <title>The Rainbow Emergency</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
         <link href="BandpageStylesheet.css" 
         rel="stylesheet" 
         type="text/css" />
         <style>
-            table, th, td{border: 1px solid black; text-align:center}
+       /* table, th, td{border: 1px solid black; text-align:center} */
             h2 {
                 text-align:center;
             }
@@ -20,15 +25,15 @@
     </head>
     <body>
         <br/>
-        <div id="treimg" style="background-image:url(Images/treimg2.png);
+<!--         <div id="treimg" style="background-image:url(Images/treimg2.png);
         width: 1200px;
         height: 1200px;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: center;">
-<!--        <img src="Images/treimg2.png"
+        background-position: center;"> -->
+       <img src="Images/treimg2.png"
             alt="The Rainbow Emergency EP album cover" 
-            style="width: 200 px;"/> -->
+            class="img-circle"/>
         </div>
         <br/>
         <div id="titles">
@@ -52,9 +57,10 @@
         </ul>
         </div>
         <br/>
-        <div id="tracks">
-        <h2>Tracks</h2>
-        <table>
+<!--        <div id="tracks">
+        <h2>Tracks</h2>   -->
+        <div class="table-responsive">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th>Track #</th>
